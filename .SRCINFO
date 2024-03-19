@@ -1,6 +1,6 @@
 pkgbase = ros-noetic-rqt-console
 	pkgdesc = ROS - rqt_console provides a GUI plugin for displaying and filtering ROS messages.
-	pkgver = 0.4.11
+	pkgver = 0.4.12
 	pkgrel = 1
 	url = https://wiki.ros.org/rqt_console
 	arch = any
@@ -16,8 +16,7 @@ pkgbase = ros-noetic-rqt-console
 	depends = ros-noetic-rospy
 	depends = ros-noetic-roslib
 	depends = python-rospkg
-	source = ros-noetic-rqt-console-0.4.11.tar.gz::https://github.com/ros-visualization/rqt_console/archive/0.4.11.tar.gz
-	sha256sums = d4ecc44d0774359ab0bea90d2fb0453f586b966ab1b8704e6a8450974c82fc35
+	source = ros-noetic-rqt-console-0.4.12.tar.gz::https://github.com/ros-visualization/rqt_console/archive/0.4.12.tar.gz
+	sha256sums = 6277a27d6cc84d79d72b38016d73a18439accaf94c50bee70701f4d1e2753755
 
 pkgname = ros-noetic-rqt-console
-

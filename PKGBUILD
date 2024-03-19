@@ -4,7 +4,7 @@ pkgdesc="ROS - rqt_console provides a GUI plugin for displaying and filtering RO
 url='https://wiki.ros.org/rqt_console'
 
 pkgname='ros-noetic-rqt-console'
-pkgver='0.4.11'
+pkgver='0.4.12'
 _pkgver_patch=0
 arch=('any')
 pkgrel=1
@@ -37,7 +37,7 @@ depends=(
 
 _dir="rqt_console-${pkgver}/"
 source=("${pkgname}-${pkgver}.tar.gz"::"https://github.com/ros-visualization/rqt_console/archive/${pkgver}.tar.gz")
-sha256sums=('d4ecc44d0774359ab0bea90d2fb0453f586b966ab1b8704e6a8450974c82fc35')
+sha256sums=('6277a27d6cc84d79d72b38016d73a18439accaf94c50bee70701f4d1e2753755')
 
 build() {
 	# Use ROS environment variables.
